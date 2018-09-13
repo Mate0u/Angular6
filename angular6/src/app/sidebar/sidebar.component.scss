@@ -1,5 +1,5 @@
 nav {
-    background: #fff;
+    background: rgb(62, 62, 185);
     height: 100%;
 
     ul {
@@ -10,13 +10,13 @@ nav {
         li {
 
             a {
-                color: #fff;
+                color: rgb(255, 255, 255);
                 padding: 20px;
                 display: block;
             }
 
             .activated {
-                background-color: #00a8ff;
+                background-color: #1a7961;
             }
         }
     }

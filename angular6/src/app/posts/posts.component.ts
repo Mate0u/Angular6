@@ -9,13 +9,13 @@ import { DataService } from '../data.service';
 })
 export class PostsComponent implements OnInit {
 
-  post$: Object;
+  posts$: Object;
 
   constructor(private data: DataService) { }
 
   ngOnInit() {
     this.data.getPosts().subscribe(
-      data => this.post$ = data
+      data => this.posts$ = data
     )
   }
 
